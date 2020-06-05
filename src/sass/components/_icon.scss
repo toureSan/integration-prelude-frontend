@@ -1,0 +1,17 @@
+.shape-radius{
+    border-radius: 50%;
+}
+
+.blue{
+    @extend .shape-radius;
+    background-color: $blue;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    width: 50px;
+}
+
+.gray{
+    background-color: $lightGray;
+    height: 60px;
+    width: 60px;
+}

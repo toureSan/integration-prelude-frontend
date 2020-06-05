@@ -1,0 +1,57 @@
+// hero
+.hero{
+    width: 100%;
+    height:100vh;
+    background-color: $gray;
+    background-size:cover;
+    display: flex;
+    
+}
+
+.text{
+    width:100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $white;
+    text-align: center;
+}
+
+.text h1{
+    font-size:4.375rem;
+    font-weight: 500;  
+    margin: 2rem 0;
+    font-family: futura-pt, sans-serif;
+}
+.text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 1.59;
+    letter-spacing: 0.22px;
+    color:$white;
+  
+}
+
+
+
+.center-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+@media screen and (max-width: 830px){
+.text h1{
+    font-size: 3rem;
+}
+.text p{
+    font-size: 1rem;
+}
+.text .round-button{
+    font-size: 1.2rem;
+}
+
+}
+

@@ -1,0 +1,75 @@
+.button {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+}
+
+.round-button {
+    box-sizing: border-box;
+    display: block;
+    width: 80px;
+    height: 80px;
+    border: 6px solid $lighBlue;
+    border-radius: 50%;
+    color: $white;
+    line-height: 70px;
+    text-align: center;
+    background-color: $blue;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.round-button:hover {
+    background-color: $white;
+    box-shadow: 0px 0px 10px $blue;
+    text-shadow: 0px 0px 10px $blue;
+}
+
+.bg-blue {
+    @extend .button;
+    border-radius: 3px;
+    background-color: $blue;
+    font-size: 15px;
+    color: $white;
+    border: transparent;
+
+}
+
+.bg-transparent {
+    @extend .button;
+    border-radius: 3px;
+    border: solid 2px $borderBtnColor;
+    background-color: $white;
+    font-size: 16px;
+    color: $blue;
+
+}
+
+.bg-transparent-gray-color {
+    @extend .bg-transparent;
+    color: $borderBtnColor;
+}
+
+.bg-transparent:hover {
+    color: $white;
+    transition: all 650ms ease;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: $blue;
+    background-color: $blue;
+}
+
+.btn-pricing {
+    width: 122px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: $lightBlue;
+    text-align: center;
+    font-family: futura-pt, sans-serif;
+    text-transform: uppercase;
+    color: $blue;
+    border: transparent;
+}

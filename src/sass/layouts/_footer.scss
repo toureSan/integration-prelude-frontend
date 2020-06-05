@@ -1,0 +1,90 @@
+footer {
+    .logo {
+        font-family: futura-pt, sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 3.06px;
+        text-align: left;
+        color: $logoColor;
+        text-transform: uppercase;
+
+    }
+
+    .social-icon {
+        display: flex;
+        max-width: 45%;
+        justify-content: space-between;
+        transition: all 650ms ease;
+    }
+
+    .footer-social {
+        padding: 0;
+        width: 50px;
+        height: 50px;
+        background-color: $white;
+        border: solid 1px $graysocialIcon;
+        border-radius: 50%;
+        line-height: 52px;
+        text-align: center;
+    }
+
+
+
+
+    .fab {
+        color: $graysocialIcon;
+        position: relative;
+        margin: 1rem;
+    }
+
+    .fab:hover,
+    .footer-social:hover {
+        color: $white;
+        background: $blue;
+        transition: all 650ms ease;
+    }
+
+
+    h5 {
+        font-family: futura-pt, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.5;
+        letter-spacing: 0.16px;
+        text-align: left;
+        color: $logoColor;
+    }
+
+    .footer-menu {
+        li {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.5;
+            letter-spacing: 0.16px;
+            text-align: left;
+            color: $logoColor;
+
+        }
+    }
+
+    .copywrite {
+        display: flex;
+        justify-content: space-between;
+        border-top: solid 1px $copyWriteColor;
+     
+    }
+
+    .footer-text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        line-height: 1.64;
+        text-align: left;
+        color: $grayTxt;
+
+    }
+}

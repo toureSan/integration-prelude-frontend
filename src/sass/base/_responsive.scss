@@ -1,0 +1,196 @@
+
+
+@media only screen and (max-width: 400px) {
+    .grid-pricing {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 3rem;
+        justify-items: center;
+    }
+    .grid-center {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    .grid-nospace-start {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0rem;
+    }
+    .grid-nospace-end{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    .card{
+        margin-left: 9rem;
+        margin-bottom: 30px;
+    }
+    .grid-footer {
+        display: grid;
+        grid-template-rows: 2fr;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+   
+    }
+
+  .inner-left{
+    margin: 0 auto;
+    width: 75rem;
+    max-width: calc(100% - 6rem);
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .inner {
+      max-width: calc(100% - 3rem);
+  } 
+
+  .inner-left{
+    margin: 0 auto;
+    width: 75rem;
+    max-width: calc(100% - 6rem);
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .grid-pricing {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 3rem;
+        justify-items: center;
+    }
+    .grid-center {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    .grid-nospace-end{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    .grid-nospace-start {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0rem;
+    }
+
+    .grid-footer {
+        display: grid;
+        grid-template-columns: 2fr;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        /* height: 76%; */
+    }
+
+
+  .inner-left{
+    margin: 0 auto;
+    width: 75rem;
+    max-width: calc(100% - 6rem);
+  }
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .grid-nospace-start {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1.5rem;
+    }
+    .grid-nospace-end {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-gap: 0;
+    }
+    .grid-pricing {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .grid-footer {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+    }
+    .grid-center {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 17rem;
+    }
+    .inner-left {
+        margin: 0 0 0 21rem;
+        width: 100rem;
+        max-width: calc(100% - 6rem);
+    }
+   
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .grid-nospace-start {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1.5rem;
+    }
+    .grid-nospace-end {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-gap: 0;
+    }
+    .grid-pricing {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .grid-footer {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+    }
+    .grid-center {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 17rem;
+    }
+    .inner-left {
+        margin: 0 0 0 21rem;
+        width: 100rem;
+        max-width: calc(100% - 6rem);
+    }
+}
+
+@media screen and (max-width: 830px){
+    .text h1{
+        font-size: 4rem;
+    }
+
+    .text .btn{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 736px) {
+    .wrapper {
+      padding: 3rem 0 1rem 0 ;
+     } 
+}

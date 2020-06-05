@@ -1,0 +1,37 @@
+.shape {
+    padding: 1rem;
+    opacity: 0.5;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, #0575e6, #7fc3fb);
+    box-shadow: 49px 82px 235px 148px rgba(5, 117, 230, 0.3);
+
+    .content-row {
+        padding: 2rem;
+    }
+
+
+
+    .shape-title{
+        font-family: futura-pt, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 52px;
+        color: $white;
+    }
+
+    .shape-title2 {
+
+        font-family: futura-pt, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 22px;
+        color: $white;
+
+    }
+
+
+    .shape-desc {
+        @extend p; 
+        color: $white !important; 
+    }
+}

@@ -1,0 +1,32 @@
+#cta-gray {
+    background-color: $gray;
+    color:$white;
+    z-index: 1;
+}
+#cta-sombre-gray {
+    background-color: $sombreGray;
+    color:$white;
+    z-index: 1;
+}
+
+#cta-white{
+    background-color: $white;
+    color:$black;
+    z-index: 1;
+}
+
+#cta-bg-blue{
+    background-image: url(../img/BGBlue.png);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: $white;
+}
+
+#cta-bg-light-blue{
+    background-color: $lightBlue;
+    color:$black;
+    z-index: 1;
+}
