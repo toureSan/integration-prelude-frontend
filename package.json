@@ -10,7 +10,7 @@
     "gulp-autoprefixer": "^7.0.1",
     "gulp-sourcemaps": "^2.6.5",
     "jquery": "^3.4.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "slick-carousel": "^1.8.1",
     "source-map": "^0.7.3"
   },
